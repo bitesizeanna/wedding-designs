@@ -1,0 +1,207 @@
+* { margin:0; padding:0; box-sizing:border-box; }
+
+body {
+	font-family: 'helvetica-neue', sans-serif;
+	font-size: 16px;
+	color: #121f5f;
+}
+
+#header {
+	background-image: url("../images/background-header-farm-pic.jpg");
+	background-size: cover;
+	width: 100%;
+	height: 600px;
+}
+
+
+h2, h4 {
+	font-family: Lora, serif;
+	text-transform: uppercase;
+	text-shadow:0px 1px 0px #000;
+}
+
+p {
+	line-height: 1.5em;
+	color: black;
+ 	padding: 5px;
+ 	text-align: center;
+}
+
+h1 {
+	font-family: 'Parisienne', cursive;
+	font-size: 8em;
+	font-weight: 100;
+	text-align: center;
+	line-height: 1em;
+	opacity: 0.8;
+	width: 300px;
+	padding: 30px;
+}
+
+span {
+	font-size: 1.8em;
+	opacity: .2;
+}
+
+h4 	{
+	font-size: 2em;
+	text-align: center;
+	color: white;
+}
+
+h3 {
+	padding: 10px;
+}
+
+#circle {
+	height: 300px;
+	width: 300px;
+	background-color: rgba(255,255,255,0.5);
+	margin-left: 30px;
+	margin-top: 60px;
+	border-radius: 50%;
+	position: absolute;
+} 
+
+#info {
+	position: relative;
+	padding-top: 40px;
+	width: 300px;
+	font-family: 'Lora', serif;
+	margin: auto;
+	font-size: 2.2em;
+	font-style: italic;
+	text-transform: uppercase;
+	font-weight: 500;
+	letter-spacing: .1px;
+	color: #0d1746;
+	text-align: center;
+	line-height: 1.5em;
+	/**border: 2px solid #0d1746;
+	background-color: rgba(255,255,255,0.4);**/
+}
+
+.small-letter {
+	font-size: 0.5em;
+	opacity: .4;
+}
+
+h2	{
+	font-weight: 700;
+	font-size: 2em;
+	padding: 20px;
+}
+
+#section-one {
+	margin-top: 10px;
+}
+
+#details{
+	text-align: center;
+	width: 50%;
+	float: left;
+	padding: 10px;
+}
+
+#rsvp {
+	width: 50%;
+	padding: 10px;
+	float: left;
+	text-align: center;
+}
+
+#section-two {
+	clear: both;
+}
+
+#directions, #accommodation {
+	text-align: center;
+	padding-top: 5px;
+	padding-bottom: 10px;
+	margin-bottom: 20px;
+}
+
+.left-side {
+	float: left;
+	width: 50%;
+	padding-bottom: 50px;
+}
+
+.right-side {
+	float: left;
+	width: 50%;
+	padding-bottom: 40px;
+}
+
+.right-side p {
+	width: 500px;
+	text-align: center;
+	margin: auto;
+	padding-top: 5px;
+}
+
+#accommodation {
+	clear: both;
+}
+
+#gifts {
+	clear: both;
+	text-align: center;
+}
+
+#gifts p {
+	clear: both;
+	margin: auto;
+	width: 70%;
+	padding: 10px;
+}
+
+hr {
+	clear: both;
+	height: 1px;
+	border: 0;
+	background-image: linear-gradient(to right, rgba(25, 42, 124, 0), rgba(25, 42, 124, 0.75), rgba(13, 23, 70, 0));
+}
+
+a {
+	color: rgba(25, 42, 124, 1)
+}
+
+a:hover {
+	color: rgba(13, 23, 70, 0.5)
+}
+
+ul {
+	line-height: 1.5em;
+
+}
+
+@media screen and (max-width: 480px) {
+
+ #details, #rsvp {
+ 	float: none;
+ 	margin: auto;
+ 	padding: 10px;
+}
+.left-side, .right-side {
+	clear: both;
+	float: none;
+	margin: auto;
+	padding: 10px;
+}
+
+    .google-maps {
+        position: relative;
+        padding-bottom: 75%; // This is the aspect ratio
+        height: 0;
+        overflow: hidden;
+    }
+    .google-maps iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100% !important;
+        height: 100% !important;
+    }
+ 
+}
